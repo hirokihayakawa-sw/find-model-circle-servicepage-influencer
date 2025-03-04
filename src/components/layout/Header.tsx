@@ -49,11 +49,11 @@ const Header = () => {
 
         {/* ログインと新規登録ボタン */}
         <div className="flex items-center gap-4 ml-auto">
-          <button className="border border-pink-500 text-pink-500 px-4 py-2 rounded-md hover:bg-pink-500 hover:text-white transition-colors">
-            ログイン
+          <button className="border-2 border-[#e94d89] text-[#e94d89] px-4 py-2 rounded-full hover:bg-pink-50 transition-all group inline-flex items-center">
+            ログイン <span className="ml-1 group-hover:translate-x-1 transition-transform">→</span>
           </button>
-          <button className="bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-600 transition-colors">
-            新規登録
+          <button className="bg-[#e94d89] text-white px-4 py-2 rounded-full hover:bg-[#d43c78] transition-all group inline-flex items-center">
+            新規登録 <span className="ml-1 group-hover:translate-x-1 transition-transform">→</span>
           </button>
         </div>
       </div>
@@ -68,8 +68,8 @@ const Header = () => {
             >
               企業様はこちら
             </a>
-            <button className="bg-[#ff0c86] text-white px-4 py-2 rounded-full text-sm hover:bg-pink-600 transition-colors w-full">
-              ログイン
+            <button className="bg-[#e94d89] text-white px-4 py-2 rounded-full hover:bg-[#d43c78] transition-all group inline-flex items-center justify-center w-full">
+              ログイン <span className="ml-1 group-hover:translate-x-1 transition-transform">→</span>
             </button>
           </div>
         </div>

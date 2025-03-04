@@ -16,7 +16,7 @@ export default function Footer() {
             />
           </div>
           
-          <div className="flex flex-col md:flex-row gap-4">
+          <div className="flex flex-row flex-wrap gap-2 md:gap-4 justify-center">
             <Link href="/about" className="text-gray-400 hover:text-pink-600 transition-colors">
               お知らせ
             </Link>

@@ -1,56 +1,81 @@
+'use client';
+
 export default function AboutSection() {
   return (
-    <section className="py-20 bg-white">
+    <section className="pt-8 pb-10 bg-white">
       <div className="container mx-auto px-4 md:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 flex items-center justify-center">
-            <span className="text-base-pink-500 mr-3">✨</span>
-            Find Model Circleとは？
-          </h2>
-          <p className="text-xl max-w-3xl mx-auto leading-relaxed mb-8">
-            Find Model Circleは、あなたらしい情報発信で<br />
-            素敵な商品やサービスの魅力を広めるインフルエンサーアプリ。<br />
-            <span className="text-base-pink-500 font-medium">「好き」を発信して、ステキな出会いが広がります</span>
-          </p>
-        </div>
+        <h2 className="text-3xl font-bold text-center mb-8 animate-slide-in">
+          Find Model Circleとは？
+        </h2>
+        <div className="bg-gradient-to-br from-pink-50 to-white rounded-[40px] p-8 md:p-12">
+          <div className="max-w-[1000px] mx-auto flex flex-col items-center gap-6">
+            <div className="space-y-8">
+              <h2 className="text-xl md:text-2xl lg:text-3xl font-bold leading-tight whitespace-nowrap bg-gradient-to-r from-[#FF1B8D] via-[#FF7B7B] to-[#FFA26B] text-transparent bg-clip-text text-center animate-slide-in animation-delay-200">
+                企業とインフルエンサーを結ぶ架け橋になるアプリ
+              </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          <div className="bg-base-pink-50 rounded-2xl p-8 text-center hover:shadow-lg transition-shadow duration-300">
-            <div className="text-4xl mb-4">💝</div>
-            <h3 className="text-xl font-bold mb-4">魅力的な案件が満載</h3>
-            <p className="text-gray-600">
-              ファッション、コスメ、カフェ、
-              ビューティーサービスなど、
-              女性に人気のブランドばかり！
-            </p>
-          </div>
+              <div className="max-w-4xl mx-auto">
+                <div className="text-gray-700 text-lg leading-relaxed space-y-6">
+                  <p className="text-center mb-2 animate-slide-in animation-delay-300">Find Model Circleは、企業とインフルエンサーをつなぐプラットフォームです。</p>
+                  <p className="whitespace-nowrap text-left animate-slide-in animation-delay-400">案件の応募から選考、商品体験、SNS発信、報酬管理まで、すべてのプロセスをアプリ内でスムーズに完結できます。</p>
+                </div>
+              </div>
+            </div>
 
-          <div className="bg-base-pink-50 rounded-2xl p-8 text-center hover:shadow-lg transition-shadow duration-300">
-            <div className="text-4xl mb-4">✨</div>
-            <h3 className="text-xl font-bold mb-4">完全無料でスタート</h3>
-            <p className="text-gray-600">
-              会員登録も案件応募も完全無料。
-              あなたの「好き」を活かして
-              素敵な体験ができます。
-            </p>
-          </div>
-
-          <div className="bg-base-pink-50 rounded-2xl p-8 text-center hover:shadow-lg transition-shadow duration-300">
-            <div className="text-4xl mb-4">🎀</div>
-            <h3 className="text-xl font-bold mb-4">充実のサポート</h3>
-            <p className="text-gray-600">
-              専任のマネージャーが
-              丁寧にサポート。
-              安心して活動できます。
-            </p>
-          </div>
-        </div>
-
-        <div className="mt-16 text-center">
-          <div className="inline-block bg-white border border-base-pink-200 px-6 py-3 rounded-full">
-            <span className="text-base-pink-500 font-medium">
-              ＼ フォロワー数は問いません！ ／
-            </span>
+            <div className="relative w-full flex items-center justify-center">
+              {/* 装飾的な背景要素 */}
+              <div className="absolute -top-10 -right-10 w-40 h-40 bg-gradient-to-br from-pink-200/30 to-purple-100/20 rounded-full blur-xl" />
+              <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-gradient-to-tr from-blue-100/30 to-cyan-100/20 rounded-full blur-xl" />
+              
+              <div className="flex flex-col items-center gap-4 relative z-10">
+                <div className="relative flex items-center w-full max-w-xl px-4 py-8 mt-4">
+                  {/* 企業アイコン */}
+                  <div className="flex flex-col items-center w-1/4 animate-pop animation-delay-300">
+                    <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-3 shadow-lg hover:shadow-xl transition-shadow">
+                      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 21H21M3 18H21M5 18V8L12 4L19 8V18" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M9 18V13H15V18" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                    </div>
+                    <div className="bg-gray-800 text-white text-xs px-3 py-1 rounded-full whitespace-nowrap shadow-md">
+                      企業
+                    </div>
+                  </div>
+                  
+                  {/* 中央のスペース - 矢印用 */}
+                  <div className="w-2/4 flex justify-center items-center px-4">
+                    <div className="flex flex-col items-center">
+                      <div className="relative">
+                        <svg className="animate-arrow-pulse" width="160" height="40" viewBox="0 0 120 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M10 15H110" stroke="#ff0c86" strokeWidth="3"/>
+                          <path d="M105 5L110 15L105 25" stroke="#ff0c86" strokeWidth="3"/>
+                          <path d="M15 5L10 15L15 25" stroke="#ff0c86" strokeWidth="3"/>
+                        </svg>
+                        
+                        {/* 装飾的な光の効果 */}
+                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 bg-pink-400/30 rounded-full blur-md animate-pulse" />
+                      </div>
+                      <div className="bg-gradient-to-r from-pink-500 to-purple-500 rounded-full px-4 py-1 text-xs text-white whitespace-nowrap mt-2 shadow-md animate-slide-in animation-delay-500">
+                        直接やりとり
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* インフルエンサーアイコン */}
+                  <div className="flex flex-col items-center w-1/4 animate-pop animation-delay-400">
+                    <div className="w-24 h-24 bg-gradient-to-br from-pink-400 to-pink-500 rounded-xl flex items-center justify-center mb-3 shadow-lg hover:shadow-xl transition-shadow">
+                      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                        <path d="M6 21V19C6 17.9391 6.42143 16.9217 7.17157 16.1716C7.92172 15.4214 8.93913 15 10 15H14C15.0609 15 16.0783 15.4214 16.8284 16.1716C17.5786 16.9217 18 17.9391 18 19V21" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                    </div>
+                    <div className="bg-gray-800 text-white text-xs px-3 py-1 rounded-full whitespace-nowrap shadow-md">
+                      インフルエンサー
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
