@@ -99,7 +99,7 @@ export default function FeaturesSection() {
                 transition={{ delay: 0.3 }}
               >
                 <p className="text-gray-600 leading-relaxed text-[15px]">
-                  アプリ内で気になる案件に簡単にすぐ応募することができます。企業とのやり取りもすべてアプリ内で完結するため、外部ツールを使う必要はありません。選考プロセスから実際の体験までがスムーズに進行するよう設計されており、煩わしい手続きなく効率的に参加していただけます。
+                  アプリ内で気になる案件に簡単にすぐ応募することができます。企業とのやり取りもすべてアプリ内で完結するため、外部ツールを使う必要はありません。
                 </p>
               </motion.div>
               <motion.div 
@@ -151,7 +151,7 @@ export default function FeaturesSection() {
                 transition={{ delay: 0.3 }}
               >
                 <p className="text-gray-600 leading-relaxed text-[15px]">
-                  体験後はあなたの感想をSNSに投稿していただきます。あなたらしい言葉で商品やサービスの魅力を自由に発信することで、あなただけの視点からの評価が生まれます。そして、その感動や発見をフォロワーの皆さんと共有することで、新たなつながりや会話が生まれるきっかけにもなります。
+                  体験後はあなたの感想をSNSに投稿していただきます。あなたらしい言葉で商品やサービスの魅力を自由に発信することで、あなただけの視点からの評価が生まれます。
                 </p>
               </motion.div>
               <motion.div 

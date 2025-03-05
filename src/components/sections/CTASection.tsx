@@ -76,7 +76,7 @@ export default function CTASection() {
               alt="Google Playで手に入れよう"
               width={200}
               height={60}
-              className="h-auto"
+              className="h-auto w-[180px] md:w-[200px]"
             />
           </Link>
         </div>
