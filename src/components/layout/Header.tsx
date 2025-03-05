@@ -48,11 +48,11 @@ const Header = () => {
         <div className="flex-grow md:hidden"></div>
 
         {/* ログインと新規登録ボタン */}
-        <div className="flex items-center gap-4 ml-auto">
-          <button className="border-2 border-[#e94d89] text-[#e94d89] px-4 py-2 rounded-full hover:bg-pink-50 transition-all group inline-flex items-center">
+        <div className="flex items-center gap-2 sm:gap-4 ml-auto">
+          <button className="border-2 border-[#e94d89] text-[#e94d89] px-2 sm:px-4 py-1 sm:py-2 rounded-full hover:bg-pink-50 transition-all group inline-flex items-center text-xs sm:text-base">
             ログイン <span className="ml-1 group-hover:translate-x-1 transition-transform">→</span>
           </button>
-          <button className="bg-[#e94d89] text-white px-4 py-2 rounded-full hover:bg-[#d43c78] transition-all group inline-flex items-center">
+          <button className="bg-[#e94d89] text-white px-2 sm:px-4 py-1 sm:py-2 rounded-full hover:bg-[#d43c78] transition-all group inline-flex items-center text-xs sm:text-base">
             新規登録 <span className="ml-1 group-hover:translate-x-1 transition-transform">→</span>
           </button>
         </div>
@@ -68,7 +68,7 @@ const Header = () => {
             >
               企業様はこちら
             </a>
-            <button className="bg-[#e94d89] text-white px-4 py-2 rounded-full hover:bg-[#d43c78] transition-all group inline-flex items-center justify-center w-full">
+            <button className="bg-[#e94d89] text-white px-2 py-1.5 rounded-full hover:bg-[#d43c78] transition-all group inline-flex items-center justify-center w-full text-sm">
               ログイン <span className="ml-1 group-hover:translate-x-1 transition-transform">→</span>
             </button>
           </div>

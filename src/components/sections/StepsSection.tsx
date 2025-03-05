@@ -6,9 +6,9 @@ export default function StepsSection() {
     <section className="py-24 bg-white">
       <div className="container mx-auto px-4 md:px-8">
         <h2 className="text-4xl font-black text-center mb-16 animate-fade-in text-gray-800">
-          登録後はかんたん3ステップ！
+          登録後は<br className="md:hidden" />かんたん3ステップ！
         </h2>
-        <div className="flex flex-col md:flex-row justify-between items-start max-w-6xl mx-auto">
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-start max-w-6xl mx-auto">
           {/* Step 1 */}
           <div className="flex flex-col items-center md:w-1/3 mb-12 md:mb-0 relative animate-slide-up group" style={{ animationDelay: '0.2s' }}>
             <div className="bg-pink-300 text-white px-6 py-2 rounded-full font-bold mb-6 shadow-lg transform group-hover:scale-105 transition-all duration-300 relative">

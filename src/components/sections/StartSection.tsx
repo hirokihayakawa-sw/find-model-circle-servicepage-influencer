@@ -4,7 +4,7 @@ export default function StartSection() {
   return (
     <section className="py-16 bg-indigo-50">
       <div className="container mx-auto px-4 md:px-8">
-        <h2 className="text-4xl font-black text-center text-gray-700 mb-24">
+        <h2 className="text-[1.65rem] md:text-4xl font-black text-center text-gray-700 mb-24 whitespace-nowrap">
           Find Model Circleの始め方
         </h2>
         <div className="flex flex-col md:flex-row justify-center items-center max-w-[1400px] mx-auto gap-24">

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const AppStoreBadge = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="180" height="60" viewBox="0 0 108.85157 40">
+  <svg xmlns="http://www.w3.org/2000/svg" className="w-[160px] h-[53px] md:w-[180px] md:h-[60px]" viewBox="0 0 108.85157 40">
     <title>Download_on_the_App_Store_Badge_JP_RGB_blk_100317</title>
     <g>
       <g>
@@ -59,7 +59,7 @@ export default function CTASection() {
           無料でダウンロードして、あなたの「好き」を発信しよう！
         </p>
 
-        <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-8">
+        <div className="flex flex-row justify-center items-center space-x-4 md:space-x-8">
           <Link 
             href="https://apps.apple.com" 
             className="transform hover:scale-105 transition-transform duration-300 hover:opacity-90 rounded-xl hover:shadow-2xl hover:shadow-pink-200/50"

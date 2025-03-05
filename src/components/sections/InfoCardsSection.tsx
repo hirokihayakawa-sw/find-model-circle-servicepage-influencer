@@ -67,7 +67,7 @@ export default function InfoCardsSection() {
   return (
     <section className="-mt-4 pb-20 bg-white">
       <div className="container mx-auto px-4 md:px-8">
-        <div className="flex flex-col md:flex-row justify-center items-stretch gap-8">
+        <div className="flex flex-col md:flex-row justify-center items-center md:items-stretch gap-8">
           {infoCards.map((card, index) => (
             <InfoCard
               key={index}

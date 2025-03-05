@@ -15,7 +15,7 @@ export default function FeaturesSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          Find Model Circleでできること
+          Find Model Circle<br className="md:hidden" /> 3つのポイント
         </motion.h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           {/* PR案件への応募 */}
@@ -201,7 +201,7 @@ export default function FeaturesSection() {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            <div className="relative h-[500px]">
+            <div className="relative h-[300px] md:h-[500px]">
               <Image
                 src="/images/link.png"
                 alt="収益化の機会"
